@@ -1,0 +1,19 @@
+name: pangeo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - bokeh
+  - dask
+  - dask-jobqueue
+  - datashader
+  - distributed
+  - geoviews
+  - holoviews
+  - hvplot
+  - iris
+  - jupyterlab
+  - matplotlib
+  - mpi4py
+  - xarray
+  - zarr
