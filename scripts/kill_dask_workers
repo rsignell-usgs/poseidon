@@ -1,0 +1,2 @@
+#!/bin/bash
+squeue -u rsignell | grep dask | awk '{ print $1; }' | xargs scancel
